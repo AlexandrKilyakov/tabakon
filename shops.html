@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=360" />
+    <title>Магазины</title>
+    <link rel="stylesheet" href="/assets/fonts/ubuntu/stylesheet.css?ver=20221107163922" />
+    <link rel="stylesheet" href="/assets/css/normalize.css?ver=20221107163922" />
+    <link rel="stylesheet" href="/assets/libs/wow/animate.css?ver=20221107163922" />
+    <link rel="stylesheet" href="/assets/libs/accordion/style.css?ver=20221107163922" />
+    <link rel="stylesheet" href="/assets/css/app.min.css?ver=20221107163922" />
+  </head>
+  <body>
+    <header class="main-header">
+      <nav>
+        <div class="hn-element">
+          <div class="hn-logo"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="9.6875" cy="8.4375" r="3.0625" stroke="#888888" stroke-width="2"/><circle cx="10" cy="10" r="9" stroke="#888888" stroke-width="2"/><path d="M4.08293 16.6013C3.86272 17.1078 4.09479 17.6969 4.60127 17.9171C5.10776 18.1373 5.69686 17.9052 5.91707 17.3987L4.08293 16.6013ZM14.0829 17.3987C14.3031 17.9052 14.8922 18.1373 15.3987 17.9171C15.9052 17.6969 16.1373 17.1078 15.9171 16.6013L14.0829 17.3987ZM5.91707 17.3987C6.2381 16.6604 7.54341 15 10 15V13C6.54355 13 4.63147 15.3396 4.08293 16.6013L5.91707 17.3987ZM10 15C12.4566 15 13.7619 16.6604 14.0829 17.3987L15.9171 16.6013C15.3685 15.3396 13.4565 13 10 13V15Z" fill="#888888"/></svg></div>
+          <p class="hn-title">Профиль</p>
+        </div>
+        <div class="hn-element">
+          <div class="hn-logo"><svg width="19" height="20" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6.40909 5.8H1V13.4L2.93182 19H5.63636L3.70455 13.4H6.40909M6.40909 5.8V13.4M6.40909 5.8L14.9091 2.28M6.40909 13.4L14.9091 17.5067M14.9091 2.28L18 1V19L14.9091 17.5067M14.9091 2.28V17.5067" stroke="#888888" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <p class="hn-title">Отзывы</p>
+        </div>
+        <div class="hn-element active">
+          <div class="hn-logo"><svg width="17" height="20" viewBox="0 0 17 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 19H1V7.75L8.5 1L16 7.75V19H11V13.2143H6V19Z" stroke="#952F33" stroke-width="2" stroke-linejoin="round"/></svg></div>
+          <p class="hn-title">Главная</p>
+        </div>
+        <div class="hn-element">
+          <div class="hn-logo"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_352_53)"><circle cx="9.79167" cy="8.54167" r="1.91667" stroke="#888888" stroke-width="2"/><path fill-rule="evenodd" clip-rule="evenodd" d="M10 0.5625C8.60654 0.5625 6.52645 0.938127 4.76166 2.10289C2.94301 3.30319 1.5 5.32342 1.5 8.4375C1.5 11.5033 2.89423 14.0701 4.55509 15.9967C6.2085 17.9146 8.18666 19.2719 9.54174 19.9514C9.56169 19.9617 9.58196 19.9712 9.60252 19.9801C9.73157 20.0362 9.86669 20.0628 10 20.0627C10.1333 20.0628 10.2684 20.0362 10.3975 19.9801C10.418 19.9712 10.4383 19.9617 10.4583 19.9514C11.8133 19.2719 13.7915 17.9146 15.4449 15.9967C17.1058 14.0701 18.5 11.5033 18.5 8.4375C18.5 5.32342 17.057 3.30319 15.2383 2.10289C13.4735 0.938127 11.3935 0.5625 10 0.5625ZM10 2.5625C8.89346 2.5625 7.22355 2.87437 5.86334 3.77211C4.55699 4.63431 3.5 6.05158 3.5 8.4375C3.5 10.8717 4.60577 12.9924 6.06991 14.6908C7.35717 16.184 8.87422 17.2933 10 17.9294C11.1258 17.2933 12.6428 16.184 13.9301 14.6908C15.3942 12.9924 16.5 10.8717 16.5 8.4375C16.5 6.05158 15.443 4.63431 14.1367 3.77211C12.7765 2.87437 11.1065 2.5625 10 2.5625Z" fill="#888888"/></g><defs><clipPath id="clip0_352_53"><rect width="20" height="20" fill="white"/></clipPath></defs></svg></div>
+          <p class="hn-title">Магазины</p>
+        </div>
+        <div class="hn-element">
+          <div class="hn-logo"><svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M13.4639 0.557231C13.8926 0.905498 13.9577 1.5353 13.6094 1.96394L2.77611 15.2973C2.42784 15.7259 1.79804 15.7911 1.3694 15.4428C0.940766 15.0945 0.875614 14.4647 1.22388 14.0361L12.0572 0.702753C12.4055 0.274117 13.0353 0.208964 13.4639 0.557231ZM3.24999 4.33332C3.75626 4.33332 4.16666 3.92291 4.16666 3.41665C4.16666 2.91039 3.75626 2.49998 3.24999 2.49998C2.74373 2.49998 2.33333 2.91039 2.33333 3.41665C2.33333 3.92291 2.74373 4.33332 3.24999 4.33332ZM3.24999 6.33332C4.86083 6.33332 6.16666 5.02748 6.16666 3.41665C6.16666 1.80582 4.86083 0.499985 3.24999 0.499985C1.63916 0.499985 0.333328 1.80582 0.333328 3.41665C0.333328 5.02748 1.63916 6.33332 3.24999 6.33332ZM12.5 12.5833C12.5 13.0896 12.0896 13.5 11.5833 13.5C11.0771 13.5 10.6667 13.0896 10.6667 12.5833C10.6667 12.0771 11.0771 11.6667 11.5833 11.6667C12.0896 11.6667 12.5 12.0771 12.5 12.5833ZM14.5 12.5833C14.5 14.1942 13.1942 15.5 11.5833 15.5C9.9725 15.5 8.66666 14.1942 8.66666 12.5833C8.66666 10.9725 9.9725 9.66668 11.5833 9.66668C13.1942 9.66668 14.5 10.9725 14.5 12.5833Z" fill="#888888"/></svg></div>
+          <p class="hn-title">Дис. карта</p>
+        </div>
+      </nav>
+    </header>
+
+
+<div class="location-city hide">
+  <div class="container">
+    <div class="lc-ava"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_352_53)"><circle cx="9.79167" cy="8.54167" r="1.91667" stroke="#888888" stroke-width="2"/><path fill-rule="evenodd" clip-rule="evenodd" d="M10 0.5625C8.60654 0.5625 6.52645 0.938127 4.76166 2.10289C2.94301 3.30319 1.5 5.32342 1.5 8.4375C1.5 11.5033 2.89423 14.0701 4.55509 15.9967C6.2085 17.9146 8.18666 19.2719 9.54174 19.9514C9.56169 19.9617 9.58196 19.9712 9.60252 19.9801C9.73157 20.0362 9.86669 20.0628 10 20.0627C10.1333 20.0628 10.2684 20.0362 10.3975 19.9801C10.418 19.9712 10.4383 19.9617 10.4583 19.9514C11.8133 19.2719 13.7915 17.9146 15.4449 15.9967C17.1058 14.0701 18.5 11.5033 18.5 8.4375C18.5 5.32342 17.057 3.30319 15.2383 2.10289C13.4735 0.938127 11.3935 0.5625 10 0.5625ZM10 2.5625C8.89346 2.5625 7.22355 2.87437 5.86334 3.77211C4.55699 4.63431 3.5 6.05158 3.5 8.4375C3.5 10.8717 4.60577 12.9924 6.06991 14.6908C7.35717 16.184 8.87422 17.2933 10 17.9294C11.1258 17.2933 12.6428 16.184 13.9301 14.6908C15.3942 12.9924 16.5 10.8717 16.5 8.4375C16.5 6.05158 15.443 4.63431 14.1367 3.77211C12.7765 2.87437 11.1065 2.5625 10 2.5625Z" fill="#888888"/></g><defs><clipPath id="clip0_352_53"><rect width="20" height="20" fill="white"/></clipPath></defs></svg></div>
+    <p class="lc-text">Ваш город:</p>
+    <input
+      list="city"
+      name="city"
+      class="city-name"
+      placeholder="Санкт-Петербург?"
+      onfocus="this.value=''"
+      onchange="this.blur();"
+    />
+    <datalist id="city">
+      <option value="Санкт-Петербург"></option>
+      <option value="Москва"></option>
+      <option value="Гомель"></option>
+      <option value="Минск"></option>
+      <option value="Брагин"></option>
+    </datalist>
+  </div>
+</div>
+
+<div class="shops-tabs js-tabs">
+  <div class="container">
+    <div class="st-tabs js-tabs-name">
+      <button class="tab wow fadeInDown tab-active">Списком</button>
+      <button class="tab wow fadeInDown">На карте</button>
+    </div>
+    <div class="st-filter">
+      <p class="st-label wow fadeInDown">Показывать:</p>
+      <div class="stf-items js-btn-dataset">
+        <button class="btn-border wow fadeInDown btn-border-active">
+          Ближайшие
+        </button>
+        <button class="btn-border wow fadeInDown">Только открытые</button>
+      </div>
+    </div>
+    <input
+      type="text"
+      class="search-block"
+      placeholder="Введите адрес магазина"
+    />
+    <div class="st-filter-result js-tabs-results">
+      <div class="stfr-list">
+        <a href="#" class="st-address wow fadeIn">
+          <span class="sta-content">
+            <h2 class="sta-title">ТК "Нарва", Ленинский пр., 128 к2 Литер А</h2>
+            <div class="sta-status">
+              <div class="cart-mini bac-close">Закрыто</div>
+              <p class="subtext">Пн-Вс: с 10:00 до 22:00</p>
+            </div>
+            <div class="sta-metro">
+              <div class="stam-logo"><svg
+  width="12"
+  height="10"
+  viewBox="0 0 12 10"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    fill-rule="evenodd"
+    clip-rule="evenodd"
+    d="M4.4131 10C3.38539 9.43763 1.20907 7.69325 1.20907 5.21472C1.20907 2.7362 2.90176 1.59509 3.1738 1.59509C3.44584 1.59509 3.59698 1.80982 3.65743 2.05521C3.70517 2.24898 5.20952 7.10054 5.98489 9.59597L6.00012 9.64423C6.00513 9.62812 6.00012 9.64423 6 9.64461L6.01511 9.59597C6.79048 7.10054 8.29483 2.24898 8.34257 2.05521C8.40302 1.80982 8.55416 1.59509 8.8262 1.59509C9.09824 1.59509 10.7909 2.7362 10.7909 5.21472C10.7909 7.69325 8.61461 9.43763 7.5869 10H10.1259C10.398 10 12 8.49693 12 5.21472C12 2.63804 9.8539 0.521472 8.0403 0L6 6.94244L3.9597 0C2.1461 0.521472 0 2.63804 0 5.21472C0 8.49693 1.60202 10 1.87406 10H4.4131Z"
+    fill="white"
+  />
+</svg>
+</div>
+              <p class="subtext">Ленинский проспект</p>
+            </div>
+          </span>
+          <button class="btn-arrow"><span class="arrow">&#10095;</span></button>
+        </a>
+        <a href="#" class="st-address wow fadeIn">
+          <span class="sta-content">
+            <h2 class="sta-title">ТК "Нарва", Ленинский пр., 128 к2 Литер А</h2>
+            <div class="sta-status">
+              <div class="cart-mini">Открыто</div>
+              <p class="subtext">Пн-Вс: с 10:00 до 22:00</p>
+            </div>
+            <div class="sta-metro">
+              <div class="stam-logo metro-line-2">
+                <svg
+  width="12"
+  height="10"
+  viewBox="0 0 12 10"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    fill-rule="evenodd"
+    clip-rule="evenodd"
+    d="M4.4131 10C3.38539 9.43763 1.20907 7.69325 1.20907 5.21472C1.20907 2.7362 2.90176 1.59509 3.1738 1.59509C3.44584 1.59509 3.59698 1.80982 3.65743 2.05521C3.70517 2.24898 5.20952 7.10054 5.98489 9.59597L6.00012 9.64423C6.00513 9.62812 6.00012 9.64423 6 9.64461L6.01511 9.59597C6.79048 7.10054 8.29483 2.24898 8.34257 2.05521C8.40302 1.80982 8.55416 1.59509 8.8262 1.59509C9.09824 1.59509 10.7909 2.7362 10.7909 5.21472C10.7909 7.69325 8.61461 9.43763 7.5869 10H10.1259C10.398 10 12 8.49693 12 5.21472C12 2.63804 9.8539 0.521472 8.0403 0L6 6.94244L3.9597 0C2.1461 0.521472 0 2.63804 0 5.21472C0 8.49693 1.60202 10 1.87406 10H4.4131Z"
+    fill="white"
+  />
+</svg>
+
+              </div>
+              <p class="subtext">Пионерская</p>
+            </div>
+          </span>
+          <button class="btn-arrow"><span class="arrow">&#10095;</span></button>
+        </a>
+      </div>
+      <div class="stfr-maps hide">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d128181.59251968168!2d30.065097625!3d59.8684463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46963aa7a0023057%3A0xddb3f9e69367a5cc!2z0JzQvtGB0LrQvtCy0YHQutC40Lkg0L_QsNGA0Log0J_QvtCx0LXQtNGL!5e0!3m2!1sru!2sru!4v1660138651869!5m2!1sru!2sru"
+          width="100%"
+          height="371"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </div>
+  </div>
+
+  	<script src="/assets/libs/wow/wow.min.js?ver=20221107163922"></script>
+	<script src="/assets/libs/accordion/script.js?ver=20221107163922"></script>
+	<script>
+		wow = new WOW(
+			{
+				animateClass: 'animated',
+				offset: 100
+			}
+		);
+		wow.init();
+	</script>
+
+	<script src="/assets/js/app.min.js?ver=20221107163922"></script>
+</body>
+</html>
+</div>
